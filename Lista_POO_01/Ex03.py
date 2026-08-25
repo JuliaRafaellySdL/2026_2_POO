@@ -3,11 +3,3 @@ class Conta_Bancaria:
         self.nome=0
         self.numero=0
         self.saldo=0
-
-    def depositar(self):
-
-    def sacar(self):
-
-    def verificar_saldo(self):
-
-    
