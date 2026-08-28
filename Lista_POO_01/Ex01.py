@@ -8,8 +8,11 @@ class Circulo:
 
 
 x = Circulo()
-print(x.raio)
 x.raio = 3
-print(x.raio)
-print(x.area())
-print(x.circunferencia())
+y = Circulo()
+y.raio = 3
+z=x
+z.raio=20
+
+print(x,x.raio,x.area(),x.circunferencia())
+print(y,y.raio,y.area(),y.circunferencia())

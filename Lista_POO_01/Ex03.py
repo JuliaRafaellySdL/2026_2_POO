@@ -8,7 +8,10 @@ class Conta:
         self.saldo = self.saldo + valor
 
     def sacar(self, valor):
-        self.saldo = self.saldo - valor
+        if valor>=self.__saldo:
+            self.saldo = self.saldo - valor
+        else:
+            print("Saldo insuficiente")
 
     def verificar_saldo(self):
         return self.saldo
