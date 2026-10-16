@@ -13,6 +13,7 @@ class Musica:
     def set_album(self, album):
         if album == "": raise ValueError("Álbum deve ser informado")
         self.__album = album
+        
     def get_titulo(self) : return self.__titulo
     def get_artista(self) : return self.__artista
     def get_album(self) : return self.__album
