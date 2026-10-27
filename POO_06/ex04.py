@@ -15,3 +15,4 @@ for obj in clientes_json:               #cada objeto é um dicionário
 arquivo.close()
 
 for c in lista: print(c)
+
