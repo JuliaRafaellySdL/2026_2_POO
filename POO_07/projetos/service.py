@@ -12,5 +12,9 @@ class Service:
         return ClienteDAO().listar()
 
     @staticmethod
-    def cliente_atualizar(id):
+    def cliente_atualizar(id, nome, emal,fone):
         return ClienteDAO().atualizar(c)
+
+    @staticmethod
+    def cliente_excluir(id):
+        return ClienteDAO().excluir()
